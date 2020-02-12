@@ -1,0 +1,21 @@
+body{
+
+background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.dataquest.io%2Fwp-content%2Fuploads%2F2019%2F02%2Fxlwings-tutorial-python-excel-1040x520.jpg&imgrefurl=https%3A%2F%2Fwww.dataquest.io%2Fblog%2Fexcel-vs-python%2F&tbnid=cIkuqvXi0Rd71M&vet=12ahUKEwix5vK3xsvnAhVCdBoKHduLBRYQMygjegQIARB5..i&docid=-jMAi3dBT-fDHM&w=1040&h=520&q=python&ved=2ahUKEwix5vK3xsvnAhVCdBoKHduLBRYQMygjegQIARB5);
+
+}
+
+h1{
+    color: purple;
+}
+h3{
+    color: yellow;
+}
+
+#up{
+    border: 1px solid red;
+
+}
+
+textarea{
+    border: 5px solid rgb(10, 247, 229 );
+}

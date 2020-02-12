@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="home.css">
     <title>Home</title>
 </head>
 <body>
+    <h1>Searching for that perfect image to text converter...</h1>
+    <h3>Here you can convert computer generated slip and hand written slip into text.</h3><br>
+
+    <form actions = 'index' method = 'post'>
+        {% csrf_token %}
+
+        <div class='box1'>
+            <label for="up">Upload your photo here: </label>
+            <input id="up" type="file" name="" required>
+            <input id = "up" type="submit" name="" value="Upload from here"><br><br><br>
+        </div>
+         
+
+
+         <textarea name="myText" rows="8" cols="50"></textarea>
+
+
+    </form>
+    
     
 </body>
 </html>
